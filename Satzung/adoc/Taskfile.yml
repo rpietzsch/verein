@@ -4,7 +4,6 @@ vars:
   PDF_ADOC: "Satzung.pdf.adoc"
   EPUB_ADOC: "Satzung.epub.adoc"
   FILE_BASE: "Satzung"
-  CMEM_VERSION: "24.3"
 #    sh: git describe --always --dirty
   DOC_DATE: 
     sh: date -u +'%Y-%m-%d'
@@ -18,23 +17,23 @@ tasks:
     cmds:
       - mkdir -p ./out/epub/
       - rm -rf ./out/epub/*.epub
-      #- asciidoctor-epub3 -a cmem-version={{.CMEM_VERSION}} -a doc-date={{.DOC_DATE}} -a ebook-validate {{.EPUB_ADOC}} --destination-dir ./out/epub/ --out-file {{.FILE_BASE}}-{{.CMEM_VERSION}}.epub
-      - asciidoctor-epub3 -a cmem-version={{.CMEM_VERSION}} -a doc-date={{.DOC_DATE}} {{.EPUB_ADOC}} --destination-dir ./out/epub/ --out-file {{.FILE_BASE}}-{{.CMEM_VERSION}}.epub
+      #- asciidoctor-epub3 -a doc-date={{.DOC_DATE}} -a ebook-validate {{.EPUB_ADOC}} --destination-dir ./out/epub/ --out-file {{.FILE_BASE}}.epub
+      - asciidoctor-epub3  -a doc-date={{.DOC_DATE}} {{.EPUB_ADOC}} --destination-dir ./out/epub/ --out-file {{.FILE_BASE}}.epub
 
   pdf:
     desc: converts the adoc to pdf
     cmds:
       - mkdir -p ./out/pdf/
       - rm -rf ./out/pdf/*.pdf
-      - asciidoctor-pdf -a cmem-version={{.CMEM_VERSION}} -a doc-date={{.DOC_DATE}} -a compress {{.PDF_ADOC}} --trace --destination-dir ./out/pdf/ --out-file {{.FILE_BASE}}-{{.CMEM_VERSION}}.pdf 
+      - asciidoctor-pdf  -a doc-date={{.DOC_DATE}} -a compress {{.PDF_ADOC}} --trace --destination-dir ./out/pdf/ --out-file {{.FILE_BASE}}.pdf 
 
       # export 1st page as epub cover image
-      - gs -sDEVICE=jpeg -o ./gfx/cover.jpg -dFirstPage=1 -dLastPage=1 -dJPEGQ=95 -r120 ./out/pdf/{{.FILE_BASE}}-{{.CMEM_VERSION}}.pdf
+      - gs -sDEVICE=jpeg -o ./gfx/cover.jpg -dFirstPage=1 -dLastPage=1 -dJPEGQ=95 -r120 ./out/pdf/{{.FILE_BASE}}.pdf
 
       # optimize the pdf for filesize
       # https://ghostscript.com/docs/9.54.0/VectorDevices.htm
       # other profiles: /prepress | /printer | /ebook | /screen
-      - gs -q -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=./out/pdf/{{.FILE_BASE}}-printer-{{.CMEM_VERSION}}.pdf ./out/pdf/{{.FILE_BASE}}-{{.CMEM_VERSION}}.pdf
+      - gs -q -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=./out/pdf/{{.FILE_BASE}}-printer.pdf ./out/pdf/{{.FILE_BASE}}.pdf
 
   build-docker-image:
     desc: builds the docker image
