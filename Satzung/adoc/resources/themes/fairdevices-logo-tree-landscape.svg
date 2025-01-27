@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="46.604527mm"
+   height="25.902422mm"
+   viewBox="0 0 46.604526 25.902422"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="fairdevices-logo-tree-landscape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.2877104"
+     inkscape:cx="171.1318"
+     inkscape:cy="44.148945"
+     inkscape:window-width="1376"
+     inkscape:window-height="691"
+     inkscape:window-x="237"
+     inkscape:window-y="192"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="75.590553"
+       y="188.97636"
+       width="93.538895"
+       height="22.96858"
+       id="rect7" />
+  </defs>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.340774;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="rect8"
+     width="46.263752"
+     height="25.561647"
+     x="0.170387"
+     y="0.170387"
+     ry="2.1301358" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-92.849685,-133.35)">
+    <g
+       id="g1">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 97.606973,142.24864 3.749997,3.75 v 7.5"
+         id="path2"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 102.60697,138.49864 1.25,3.75 v 13.75"
+         id="path5"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 107.60697,139.74864 -1.25,5 v 11.25"
+         id="path6"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 112.60697,144.74864 -3.75,3.75 v 5"
+         id="path7"
+         sodipodi:nodetypes="ccc" />
+      <circle
+         style="fill:#34fa75;fill-opacity:1;stroke:#000000;stroke-width:0.514164;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="path1-7"
+         cx="112.60697"
+         cy="144.74864"
+         r="1.742918" />
+      <circle
+         style="fill:#d4d230;fill-opacity:1;stroke:#000000;stroke-width:0.514164;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="path1-2"
+         cx="107.60697"
+         cy="139.74864"
+         r="1.742918" />
+      <circle
+         style="fill:#d444d5;fill-opacity:1;stroke:#000000;stroke-width:0.514164;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path1-5"
+         cx="97.606972"
+         cy="142.24864"
+         r="1.742918" />
+      <circle
+         style="fill:#3ad2d5;fill-opacity:1;stroke:#000000;stroke-width:0.514164;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="path1"
+         cx="102.60697"
+         cy="138.49864"
+         r="1.742918" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,96.630081,93.91046)"
+       id="text7"
+       style="font-weight:300;font-size:17.3333px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';white-space:pre;shape-inside:url(#rect7);display:inline;fill:#d4d2d5;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"><tspan
+         x="75.589844"
+         y="204.79026"
+         id="tspan6"><tspan
+           style="font-weight:bold;font-stretch:condensed;font-family:Roboto;-inkscape-font-specification:'Roboto Bold Condensed';fill:#000000"
+           id="tspan1">fair</tspan><tspan
+           style="font-weight:normal;font-stretch:condensed;font-family:Roboto;-inkscape-font-specification:'Roboto Condensed';fill:#000000;stroke:none"
+           id="tspan2">devices</tspan></tspan></text>
+  </g>
+</svg>

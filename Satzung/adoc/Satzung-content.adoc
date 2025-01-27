@@ -1,0 +1,89 @@
+:imagesdir: ./gfx/
+:stylesheet: custom.css
+
+= {doctitle}
+
+== Allgemeines
+
+=== §1 Name, Sitz, Geschäftsjahr, Logo
+
+. Der Verein führt den Namen "**faird**evices e.V." und hat seinen Sitz in Dresden.
+. Er ist in das Vereinsregister des Amtsgerichts Dresden eingetragen.
+. Das Geschäftsjahr beginnt am 1. Juli und endet am 30. Juni des folgenden Jahres.
+. Das Logo des Vereins
+
+=== §2 Aufgaben und Zweck
+
+Aufgabe und Ziel des Vereins ist die Förderung technischer Geräte mit voller technischer Dokumentation (open hardware), welche sich durch besondere Langlebigkeit bzw. einfache Reparierbarkeit auszeichnen.
+
+=== §3 Vereinsvermögen
+
+=== §4 Organe
+
+=== §5 Allgemeine Vorschriften
+
+== Mitgliedschaft
+
+=== §1 Mitgliederstruktur
+    
+. Der Verein besteht aus:
+.. aktiven Mitgliedern (natürliche Personen, die im Verein aktive mitarbeiten)
+.. passiven Mitgliedern (natürliche Personen, die den Verein materiell und immateriell fördern)
+.. Fördermitgliedern (Personengesellschaften, juristische Personen und Vereine)
+
+=== §2 Erwerb der Mitgliedschaft
+
+. Vereinsmitglied werden natürliche oder juristische Personen per Antragsbestätigung.
+  Der Aufnahmeantrag ist auf dem vorgeschriebenen Formblatt in der Geschäftsstelle einzureichen.
+  Die Aufnahme von Mitgliedern unter 18 Jahren setzt die Zustimmung des gesetzlichen Vertreters voraus.
+. Die Bestätigung der Mitgliedschaft ist dem Antragsteller schriftlich spätestens vier Wochen nach Eingang mitzuteilen.
+. Als Eintrittsdatum in den Verein und Beginn der Beitragszahlung gilt das auf dem Mitgliedsantrag mit persönlicher Unterschrift bestätigte Datum.
+  Das Eintrittsdatum kann frühestens auf den Monatsanfang des Zugangs in der Geschäftsstelle datiert werden.
+  Die Mitgliedschaft wird jedoch erst mit der Bestätigung des Aufnahmeantrages und der Zahlung des ersten fälligen Mitgliedsbeitrages wirksam. 
+
+=== §3 Recht und Pflichten
+
+=== §4 Ende der Mitgliedschaft
+
+== Mitgliederversammlung
+
+=== §1 Stellung der Mitgliederversammlung 
+
+=== §2 Ordentliche Mitgliederversammlung
+
+=== §3 Außerordentliche Mitgliederversammlung
+
+=== §4 Anträge an die Mitgliederversammlung 
+
+== Abstimmung
+
+=== §5 Wahlen
+
+=== §6 Anfechtung von Beschlüssen 
+
+== Aufsichtsrat
+
+=== §1 Stellung 
+
+=== §2 Zusammensetzung
+
+=== §3 Wahl 
+
+=== §4 Vertretungsbefugnisse und Haftung
+
+=== §5 Aufgaben 
+
+=== §6 Sitzungen und Beschlussfassung
+
+== Schlussbestimmungen
+
+=== §1 Wirkung der Satzung und ihrer Änderungen
+
+=== §2 
+
+== Literaturverzeichnis
+
+[1]
+[2]
+
+== Anhang

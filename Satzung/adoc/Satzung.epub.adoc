@@ -1,0 +1,4 @@
+include::./incl-head.adoc[]
+:doctype: book
+:front-cover-image: image:cover.jpg[alt="Cover"]
+include::./Satzung-content.adoc[]

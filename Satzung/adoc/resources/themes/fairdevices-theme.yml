@@ -1,0 +1,105 @@
+extends: default
+
+running-content:
+  start-at: 1
+
+heading:
+  chapter_break_before: always
+  font-family: Roboto
+  font-style: bold
+  h1-font-size: $base-font-size * 1.5
+  h1-margin-bottom: $base-font-size * 0.9
+  h2-font-size: $base-font-size * 1.4
+  h3-font-size: $base-font-size * 1.3
+  h4-font-size: $base-font-size * 1.2
+  h5-font-size: $base-font-size * 1.15
+  h6-font-size: $base-font-size * 1.1
+  #font-color: #F28C1C
+  margin-bottom: $base-font-size * 0.15
+  margin-page-top: $base-font-size * 0.25
+
+header:
+  height: 0.25in
+  line-height: 1
+  background-color: #D9D9D9
+  #font-color: #FFFFFF
+  font-size: $base-font-size * 0.75
+  margin: [ 0, 0, 0, 0 ]
+  content-margin: [0, inherit, 0, inherit]
+  padding: [ 0, 0, 0, 0 ]
+  recto:
+    left:
+      content: '{doctitle}'
+    right:
+      content: '{revdate}'
+  verso:
+    #center:
+    #  content: $header-recto-center-content
+    left:
+      content: $header-recto-left-content
+    right:
+      content: $header-recto-right-content
+
+footer:
+  height: 0.65in
+  line-height: 1
+  background-color: #D9D9D9
+  #font-color: #FFFFFF
+  margin: [ 0, 0, 0, 0 ]
+  content-margin: [0.15in, inherit, 0, inherit]
+  padding: [ 0, 0, 0, 0 ]
+  #line-height: 3
+  #image-vertical-align: 1 # (1)
+  #margin: [0.25in, 0, 0.25in, 0]
+  #padding: [0.25in, 0, 0.25in, 0]
+  recto:
+    left:
+      content: image:fairdevices-logo-tree-landscape_textAsPath.svg[width=60]
+    right:
+      content: '*{page-number}* • {page-count}'
+    center:
+      content: '**fair**devices e.V., Copitzer Str. 2, 01326 Dresden, Germany'
+  verso:
+    left:
+      content: $footer-recto-left-content
+    right:
+      content: $footer-recto-right-content
+    center:
+      content: $footer-recto-center-content
+
+font:
+  catalog:
+    merge: true 
+    Roboto:
+      normal: roboto-normal.ttf
+      italic: roboto-italic.ttf
+      bold: roboto-bold.ttf
+      bold_italic: roboto-bold_italic.ttf
+    Roboto Condensed:
+      normal: roboto-condensed-normal.ttf
+      italic: roboto-condensed-italic.ttf
+      bold: roboto-condensed-bold.ttf
+      bold_italic: roboto-condensed-bold_italic.ttf
+
+table:
+  border-width: 0
+  grid-width: 0
+
+base:
+  font-family: Roboto
+  font-size: 8
+  font-size-large: $base-font-size * 1.25
+  font-size-small: $base-font-size * 0.85
+
+list:
+  item-spacing: 2
+
+block:
+  #margin-top: $base-font-size * 0.25
+  margin-bottom: $base-font-size * 0.5
+
+image:
+  padding: [0.1in]
+
+page:
+  margin: [27, 27, 42, 27]

@@ -1,0 +1,30 @@
+//:doctype: article
+:doctype: book
+:cmem-version: SNAPSHOT
+:doc-date: "will be set from `task` based on `date -u +'%Y-%m-%d'`"
+:doctitle: Satzung
+//:!showtitle:
+//:notitle:
+//:author: Foo Bar
+//:email: foo.bar@mail.com
+//:phone: +49-000-0000-0000
+:revdate: Datum: {doc-date}
+//:contact: **fair**devices e.V., Copitzer Str. 2, 01326 Dresden, Germany
+//:sectnums:
+:toc: macro
+:toclevels: 3
+:imagesdir: ./gfx/
+//username determines the images/avatar/fb.jpg file
+//:username: fb
+//:favicon: {imagesdir}/eccenca-favicon.ico
+:xrefstyle: short
+:pdf-fontsdir: ./fonts/
+:pdf-themesdir: ./resources/themes
+:pdf-theme: fairdevices
+//:stylesheet: resources/themes/material-orange.css
+:source-highlighter: rouge
+//:epub-chapter-level: 3
+:lang: en
+:icons: font
+:icon-set: fas
+:stylesheet: custom.css
